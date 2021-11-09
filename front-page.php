@@ -3,7 +3,6 @@
     <!-- slider -->
     <section class="slider-custom" data-anime="slow-slider">
         <?php echo do_shortcode('[ssslider id="7"]') ?>
-
     </section>
 
     
@@ -12,22 +11,22 @@
             <div class="grid grid-cols-1 md:grid-cols-2 space-x-9 h-full pt-40 pb-96 md:pb-80 px-3 md:px-20">
                 <div class="container hidden md:block pt-40">
                     <div class="composition">
-                        <img srcset="<?php echo get_theme_file_uri('/images/bem-vindo-1.jpg')?> 300w, <?php echo get_theme_file_uri('/images/bem-vindo-1-large.jpg ')?>1000w"
+                        <img srcset="<?php echo get_theme_file_uri('./images/bem-vindo-1.jpg')?> 300w, <?php echo get_theme_file_uri('./images/bem-vindo-1-large.jpg ')?>1000w"
                             sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                             alt="Photo 1"
                             class="composition__photo composition__photo--p1"
-                            src="<?php echo get_theme_file_uri('/images/bem-vindo-1-large.jpg')?>">
-                        <img srcset="<?php echo get_theme_file_uri('/images/bem-vindo-2.jpg')?> 300w, <?php echo get_theme_file_uri('/images/bem-vindo-2-large.jpg')?> 1000w"
+                            src="<?php echo get_theme_file_uri('./images/bem-vindo-1-large.jpg')?>">
+                        <img srcset="<?php echo get_theme_file_uri('./images/bem-vindo-2.jpg')?> 300w, <?php echo get_theme_file_uri('./images/bem-vindo-2-large.jpg')?> 1000w"
                                         sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                             alt="Photo 2"
                             class="composition__photo composition__photo--p2"
-                            src="<?php echo get_theme_file_uri('/images/bem-vindo-2-large.jpg')?>">
+                            src="<?php echo get_theme_file_uri('./images/bem-vindo-2-large.jpg')?>">
 
-                        <img srcset="<?php echo get_theme_file_uri('/images/bem-vindo-3.jpg ')?> 300w, <?php echo get_theme_file_uri('/images/bem-vindo-3-large.jpg')?> 1000w"
+                        <img srcset="<?php echo get_theme_file_uri('./images/bem-vindo-3.jpg ')?> 300w, <?php echo get_theme_file_uri('./images/bem-vindo-3-large.jpg')?> 1000w"
                             sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                             alt="Photo 3"
                             class="composition__photo composition__photo--p3"
-                            src="<?php echo get_theme_file_uri('/images/bem-vindo-3-large.jpg')?>">
+                            src="<?php echo get_theme_file_uri('./images/bem-vindo-3-large.jpg')?>">
 
                                     <!--
                                     <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
