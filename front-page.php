@@ -3,6 +3,7 @@
     <!-- slider -->
     <section class="slider-custom" data-anime="slow-slider">
         <?php echo do_shortcode('[ssslider id="7"]') ?>
+        
     </section>
 
     
